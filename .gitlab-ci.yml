@@ -1,0 +1,88 @@
+image: exileed/puppeteer:node-14
+
+stages:
+  - pre-deploy
+  - deploy
+  - post-deploy
+  - notification
+
+.deploy:
+  stage: deploy
+  before_script:
+    - apt-get update -y
+    - apt-get -y install rsync openssh-client
+    - mkdir -p ~/.ssh
+    - echo "$SSH_PRIVATE_KEY" >> ~/.ssh/id_dsa
+    - chmod 600 ~/.ssh/id_dsa
+    - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
+  script:
+    - echo "Building deploy package"
+    - npm install --progress=false
+    - npm run build
+    - echo "Deploy package"
+    - rsync -rav dist/ $SERVER:$DEPLOY_PATH
+
+variables:
+  SERVER: deploy@159.89.111.248
+  RELEASE_TAG: "$CI_COMMIT_SHORT_SHA"
+  TELEGRAM_CHAT_ID: -358913421 # Casino front
+
+cache:
+  paths:
+    - node_modules/
+
+Sentry Release:
+  stage: pre-deploy
+  image: getsentry/sentry-cli
+  script:
+    - sentry-cli releases -o "$SENTRY_ORG" new -p "$SENTRY_PROJECT" "$RELEASE_TAG"
+    #- sentry-cli releases -o $SENTRY_ORG set-commits --auto "$CI_COMMIT_SHA" #todo added commits
+  only:
+    - main
+
+Sentry Finalize Release & Deploy:
+  stage: post-deploy
+  image: getsentry/sentry-cli
+  script:
+    - sentry-cli releases -o "$SENTRY_ORG" finalize "$RELEASE_TAG"
+    - sentry-cli releases -o "$SENTRY_ORG" deploys "$RELEASE_TAG" new -e "staging"
+    - echo "Finalized release for $RELEASE_TAG"
+  only:
+    - main
+
+Build and deploy staging:
+  stage: deploy
+  variables:
+    CASINO_APP_API_URL: http://staging.api.casinoplatform.site/v3/
+    CASINO_APP_URL: http://staging.goodbet.casinoplatform.site
+    CASINO_SOCKET_URL: http://staging.goodbet.casinoplatform.site:2052
+    DEPLOY_PATH: /var/www/staging.goodbet/dist
+  extends: .deploy
+  environment:
+    name: staging
+    url: https://staging.goodbet.casinoplatform.site
+  only:
+    - main
+
+Build and deploy prod:
+  stage: deploy
+  variables:
+    CASINO_APP_API_URL: http://api.casinoplatform.site/v3/
+    CASINO_APP_URL: http://goodbet.casinoplatform.site
+    CASINO_SOCKET_URL: http://goodbet.casinoplatform.site:2052
+    DEPLOY_PATH: /var/www/goodbet/dist
+  extends: .deploy
+  environment:
+    name: prod
+    url: https://goodbet.casinoplatform.site
+  only:
+    - main
+
+notification_deploy:
+  stage: notification
+  variables:
+    ENVIRONMENT_NAME: staging
+  script:
+    - curl -s -X POST https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/sendMessage -d chat_id=$TELEGRAM_CHAT_ID -d text="Deploy on $ENVIRONMENT_NAME commit $RELEASE_TAG"
+  only:
+    - main

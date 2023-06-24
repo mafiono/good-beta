@@ -1,0 +1,240 @@
+{
+  "main": {
+    "casinoName": "GoodBet",
+    "about": "About",
+    "faq": "FAQ",
+    "news": "News",
+    "bonuses": "Bonuses",
+    "responsibleGames": "Responsible Games",
+    "recommended": "Recommended",
+    "new": "New",
+    "popular": "Popular",
+    "slots": "Slots",
+    "liveGame": "Live Game",
+    "roulette": "Roulette",
+    "card": "Card",
+    "virtualSport": "Virtual Sport",
+    "loto": "Loto",
+    "tableGames": "Table Games",
+    "date": "Date",
+    "amount": "Amount",
+    "status": "Status",
+    "cancelUPPER": "CANCEL",
+    "acceptUPPER": "ACCEPT",
+    "approved": "approved",
+    "denied": "denied",
+    "pending": "pending",
+    "goHomeLink": "Go to home page",
+    "loading": "Loading...",
+    "loginUPPER": "LOGIN",
+    "registerUPPER": "REGISTRATION",
+    "ok": "ОК",
+    "cancel": "Cancel"
+  },
+  "myProfile": {
+    "myProfile": "My profile",
+    "socials": "Socials",
+    "deposit": "Deposit",
+    "withdrawal": "Cash withdrawal",
+    "accounts": "Accounts",
+    "transactions": "Transactions",
+    "myBonusTransactions": "My bonuses",
+    "documents": "Documents",
+    "settings": "Settings"
+  },
+  "deleteAccount": {
+    "title": "Delete account. Are you ABSOLUTELY SURE?",
+    "description": "The account can be restored within 14 days after deletion. After 14 days, the account and associated data will be deleted permanently",
+    "passwordField": "Please type password to confirm:",
+    "button": "DELETE ACCOUNT",
+    "confirmationDescription": "Are you sure in deleting your account?"
+  },
+  "changePassword": {
+    "title": "Change password",
+    "description": "After password changing, account should not available to use with current password",
+    "oldPassword": "Enter old password",
+    "newPassword": "Enter new password",
+    "repeatPassword": "Reenter new password",
+    "button": "Reset",
+    "resetButtonTitle": "Change password"
+  },
+  "profileVerify": {
+    "title": "Confirm contact",
+    "description": "Please confirm your contact",
+    "verifyCode": "Confirmation code",
+    "button": "Confirm"
+  },
+  "selfExclusion": {
+    "title": "Temporarily block the profile",
+    "description": "You can block the profile until the selected date, the profile will be available from 00:00 on the selected date.",
+    "dateLabel": "Profile activation date",
+    "password": "Password",
+    "button": "Block account",
+    "excludeButtonTitle": "Self-exclude",
+    "confirmationDescription": "Are you sure to block yyour account?"
+  },
+  "social": {
+    "name": "Socials",
+    "add_social": "Add social",
+    "add": "Add",
+    "delete": "Delete"
+  },
+  "betCard": {
+    "contacts": "CONTACTS",
+    "needAnyHelp": "NEED ANY HELP?"
+  },
+  "winners": {
+    "title": "LATEST WINNERS",
+    "justWon": "Just won",
+    "play": "Play"
+  },
+  "footer": {
+    "slogan": "it’s always a good <span>bet</span><br>with GoodBet",
+    "developedBy": "developed by - casinoplatform."
+  },
+  "games": {
+    "noGamesTextInList": "Oops, No games yet!",
+    "connecting": "Connecting",
+    "gameLaunchErrorMsg": "Error in game launch on this currency, please change account, or contact support",
+    "playerIsNotVerifiedMsg": "You are not verified yet, please provide documents for verification and wait for verification",
+    "uploadDocuments": "Upload documents",
+    "changeAccount": "Change current account",
+    "connectUs": "Connect us",
+    "seeAllLinkTitle": "See All",
+    "gamesUPPER": "GAMES",
+    "gamesSearchFieldTitle": "Game name",
+    "providerSelectTitle": "Provider"
+  },
+  "pages": {
+    "about": {
+      "notificationSuccess": "Message sent",
+      "notificationFail": "Failed to send message",
+      "send": "Send",
+      "title": "CONTACT US",
+      "selectCategory": "Select category",
+      "name": "Name",
+      "topic": "Topic",
+      "paymentProblemDeposit": "Problem in deposit",
+      "paymentProblemWithdraw": "Problem in withdraw",
+      "message": "Message text"
+    },
+    "account": {
+      "accountsUPPER": "ACCOUNTS",
+      "createAccount": "CREATE ACCOUNT",
+      "changeAccount": "Change Account",
+      "depositMoney": "DEPOSIT MONEY",
+      "depositUpper": "DEPOSIT",
+      "applyDocuments": "APPLY DOCUMENT",
+      "addDocuments": "ADD DOCUMENT",
+      "documents": "DOCUMENTS",
+      "transactions": "transactions",
+      "deposit": "Deposit",
+      "depositTopUpButtonText": "top up an account",
+      "withdrawalUpper": "WITHDRAWAL",
+      "withdrawal": "Withdrawal",
+      "withdrawalMoney": "Withdrawal money",
+      "withdrawalMoneyUpper": "WITHDRAWAL MONEY",
+      "withdrawConfirmText": "<p class=\"white-txt\">Do you confirm withdraw: %{amount} <br>\nWith fee: 0</p>",
+      "settings": {
+        "title": "Settings",
+        "description": "Here you can find blocking methods of your account"
+      },
+      "profile": {
+        "editAvatar": "Edit avatar",
+        "nickname": "Nickname",
+        "email": "E-mail",
+        "login": "Login",
+        "name": "Name",
+        "lastName": "Last name",
+        "sex": "Sex",
+        "male": "male",
+        "female": "female",
+        "birthday": "Birthday",
+        "country": "Country",
+        "address": "Address",
+        "city": "City",
+        "timezone": "Timezone",
+        "saveButtonTitle": "SAVE",
+        "profileEditSuccess": "Changes successfully saved",
+        "profileEditFail": "Changes saving saved",
+        "avatarUploadedSuccess": "Avatar successfully updated",
+        "avatarUploadedFailed": "There is a problem with avatar update",
+        "edit": "EDIT"
+      }
+    }
+  },
+  "404": {
+    "errorTitle": "UNDER CONSTRUCTION"
+  },
+  "failed": {
+    "failDescription": "FAILED TRANSACTION"
+  },
+  "success": {
+    "successDescription": "TRANSACTION SUCCESSFUL",
+    "goToTransactionsLink": "Go to transactions"
+  },
+  "home": {
+    "popularGames": "POPULAR GAMES",
+    "slots": "SLOTS",
+    "recommended": "RECOMMENDED"
+  },
+  "confirmPopup": {
+    "title": "Confirm",
+    "confirm": "Confirm",
+    "cancel": "Cancel"
+  },
+  "login": {
+    "socialSignInTitle": "Sign in with your social network",
+    "email": "E-mail",
+    "password": "Password",
+    "rememberMe": "Remember Me",
+    "forgotPassword": "Forgot Password?",
+    "loginUPPER": "LOGIN",
+    "registration": "Registration",
+    "error": "Login details are incorrect",
+    "social_login_error_message": "Can't sign in via social network "
+  },
+  "recovery": {
+    "socialSignInTitle": "Indicate your e-mail",
+    "recoveryPasswordDeletedTitle": "Indicate your password",
+    "email": "E-mail",
+    "password": "Password",
+    "loginUPPER": "RESTORE PASSWORD",
+    "title": "FORGOT PASSWORD",
+    "success": "Message sent to your e-mail"
+  },
+  "recoveryDeleted": {
+    "title": "Recovery deleted account",
+    "submitButtonTitle": "Restore"
+  },
+  "newPass": {
+    "passOne": "New password",
+    "passTwo": "Repeat password",
+    "loginUPPER": "CONFIRM",
+    "title": "NEW PASSWORD"
+  },
+  "bonus": {
+    "statuses": {
+      "active": "Active",
+      "finished": "Finished",
+      "cancel": "Cancel",
+      "expired": "Expired",
+      "threshold": "Threshold",
+      "waiting": "Waiting",
+      "subscribed": "Subscribed",
+      "unsubscribed": "Unsubscribed",
+      "pending_cancel": "Pending_cancel"
+    },
+    "name": "Name",
+    "status": "Status",
+    "transactionData": "Transaction Data"
+  },
+  "myBonusTransactions": {
+    "name": "MY BONUSES",
+    "active": "Active",
+    "available": "Available",
+    "subscribed": "Subscribed",
+    "all": "All",
+    "more": "more"
+  }
+}

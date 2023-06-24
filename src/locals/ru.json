@@ -1,0 +1,240 @@
+{
+  "main": {
+    "casinoName": "GoodBet",
+    "about": "О нас",
+    "faq": "FAQ",
+    "news": "Новости",
+    "bonuses": "Бонусы",
+    "responsibleGames": "Ответственная игра",
+    "recommended": "Рекомендованные",
+    "new": "Новые",
+    "popular": "Популярные",
+    "slots": "Слоты",
+    "liveGame": "Живые игры",
+    "roulette": "Рулетка",
+    "card": "Карты",
+    "virtualSport": "Виртуальный Спорт",
+    "loto": "Лото",
+    "tableGames": "Настольные игры",
+    "date": "Дата",
+    "amount": "Сумма",
+    "status": "Статус",
+    "cancelUPPER": "ОТМЕНИТЬ",
+    "acceptUPPER": "ПРИНЯТЬ",
+    "approved": "одобрено",
+    "denied": "отклонено",
+    "pending": "ожидание",
+    "goHomeLink": "Перейти на главную",
+    "loading": "Загрузка...",
+    "loginUPPER": "ВОЙТИ",
+    "registerUPPER": "РЕГИСТРАЦИЯ",
+    "ok": "ОК",
+    "cancel": "Отменить"
+  },
+  "myProfile": {
+    "myProfile": "Мой профиль",
+    "socials": "Соц. сети",
+    "deposit": "Депозит",
+    "withdrawal": "Вывод",
+    "accounts": "Счета",
+    "transactions": "Транзакции",
+    "myBonusTransactions": "Мои бонусы",
+    "documents": "Документы",
+    "settings": "Настройки"
+  },
+  "deleteAccount": {
+    "title": "Удаление аккаунта. ВЫ ТОЧНО УВЕРЕННЫ?",
+    "description": "Аккаунт можно востановить в течении 14 дней после удаления. После 14 дней аккаунт и связанные с ним данный удалятся навсегда",
+    "passwordField": "Введите пароль чтобы продолжить:",
+    "button": "Удалить аккаунт",
+    "confirmationDescription": "Вы уверены что хотите удалить свой аккаунт?"
+  },
+  "changePassword": {
+    "title": "Поменять пароль",
+    "description": "После смены пароля, учетная запись не будет доступна по страрому поролью",
+    "oldPassword": "Введите текущий пароль",
+    "newPassword": "Новый пароль",
+    "repeatPassword": "Новый пароль ещё раз",
+    "button": "Поменять",
+    "resetButtonTitle": "Поменять пароль"
+  },
+  "profileVerify": {
+    "title": "Подвердить контакт",
+    "description": "Пожалуйста подтвердите ваш контакт",
+    "verifyCode": "Код подтверждения",
+    "button": "Подтвердить"
+  },
+  "selfExclusion": {
+    "title": "Временно заблокировать профиль",
+    "description": "Вы можете заблакировать профиль до выбранной даты, профиль будет доступен с 00:00 выбронной даты.",
+    "dateLabel": "Дата активации профиля",
+    "password": "Ваш текущий пароль",
+    "button": "Заблокировать",
+    "excludeButtonTitle": "Заблокировать профиль",
+    "confirmationDescription": "Вы уверены что хотите временно заблокировать свой аккаунт?"
+  },
+  "social": {
+    "name": "Socials",
+    "add_social": "Add social",
+    "add": "Add",
+    "delete": "Delete"
+  },
+  "betCard": {
+    "contacts": "КОНТАКТЫ",
+    "needAnyHelp": "НУЖНА ПОМОЩЬ?"
+  },
+  "winners": {
+    "title": "Последние выигрыши",
+    "justWon": "Выигрыш",
+    "play": "Играть"
+  },
+  "footer": {
+    "slogan": "Хорошо <span>играть</span><br>с GoodBet",
+    "developedBy": "разработано - casinoplatform."
+  },
+  "games": {
+    "noGamesTextInList": "Оппа, тут нет игр",
+    "connecting": "Соединение",
+    "gameLaunchErrorMsg": "Ошибка при запуске игры, пожалуйста смените счет, или свяжитесь с поддержкой",
+    "playerIsNotVerifiedMsg": "Ваш профиль еще не активен, пожалуйста предоставьте документы для верификации, и ждите активации",
+    "uploadDocuments": "Загрузить документы",
+    "changeAccount": "Сменить счёт",
+    "connectUs": "Связатся с нами",
+    "seeAllLinkTitle": "Еще",
+    "gamesUPPER": "ИГРЫ",
+    "gamesSearchFieldTitle": "Название игры",
+    "providerSelectTitle": "Провайдер"
+  },
+  "pages": {
+    "about": {
+      "notificationSuccess": "Сообщение отправлено",
+      "notificationFail": "Ошибка при отправке сообщения",
+      "send": "Отправить",
+      "title": "Свяжитесь с нами",
+      "selectCategory": "Выберите категорию",
+      "name": "Имя",
+      "topic": "Тема",
+      "paymentProblemDeposit": "Проблема при пополнении",
+      "paymentProblemWithdraw": "Проблема при выводе",
+      "message": "Сообщения"
+    },
+    "account": {
+      "accountsUPPER": "СЧЕТА",
+      "createAccount": "СОЗДАТЬ ПРОФИЛЬ",
+      "changeAccount": "Изменить профиль",
+      "depositMoney": "Ввести деньги",
+      "depositUpper": "ДЕПОЗИТ",
+      "applyDocuments": "Отправить документы",
+      "addDocuments": "Добавить документ",
+      "documents": "Документы",
+      "transactions": "транзакции",
+      "deposit": "Депозит",
+      "depositTopUpButtonText": "Пополнить",
+      "withdrawalUpper": "ВЫВОД",
+      "withdrawal": "Вывод",
+      "withdrawalMoney": "Вывести деньги",
+      "withdrawalMoneyUpper": "ВЫВЕСТИ ДЕНЬГИ",
+      "withdrawConfirmText": "<p class=\"white-txt\">Вы подтверждаете вывод: %{amount} <br>\nС коммисией: 0</p>",
+      "settings": {
+        "title": "Настройки",
+        "description": "На этой странице вы можете найти методы блокировки вашего профиля"
+      },
+      "profile": {
+        "editAvatar": "Изменить аватар",
+        "nickname": "Никнейм",
+        "email": "Почта",
+        "login": "Логин",
+        "name": "Имя",
+        "lastName": "Фамилия",
+        "sex": "Пол",
+        "male": "мужской",
+        "female": "женский",
+        "birthday": "День рождения",
+        "country": "Страна",
+        "address": "Адрес",
+        "city": "Город",
+        "timezone": "Часавой пояс",
+        "saveButtonTitle": "СОХРАНИТЬ",
+        "profileEditSuccess": "Изменения сохранены",
+        "profileEditFail": "Произошла ошибка",
+        "avatarUploadedSuccess": "Аватарка успешно обновлена",
+        "avatarUploadedFailed": "Проблемы с обновлением аватарки",
+        "edit": "Редактировать"
+      }
+    }
+  },
+  "404": {
+    "errorTitle": "Страница не существует"
+  },
+  "failed": {
+    "failDescription": "ОШИБКА В ТРАНЗАКЦИИ"
+  },
+  "success": {
+    "successDescription": "ТРАНЗАКЦИЯ УСПЕШНА",
+    "goToTransactionsLink": "В список транзакции"
+  },
+  "home": {
+    "popularGames": "Популярные игры",
+    "slots": "Слот машины",
+    "recommended": "Рекомендованно для вас"
+  },
+  "confirmPopup": {
+    "title": "Подтвердите действие",
+    "confirm": "Поддтвердить",
+    "cancel": "Отменить"
+  },
+  "login": {
+    "socialSignInTitle": "Войти через социальные сети",
+    "email": "E-mail",
+    "password": "Пароль",
+    "rememberMe": "Запомнить меня",
+    "forgotPassword": "Забыли пароль?",
+    "loginUPPER": "ВОЙТИ",
+    "registration": "Регистрация",
+    "error": "Данные для входа неверны",
+    "social_login_error_message": "Не удается ввойти через социальную сеть"
+  },
+  "recovery": {
+    "socialSignInTitle": "Укажите ваш e-mail",
+    "recoveryPasswordDeletedTitle": "Укажите ваш пароль",
+    "email": "E-mail",
+    "password": "Пароль",
+    "loginUPPER": "ВОССТАНОВИТЬ ПАРОЛЬ",
+    "title": "ЗАБЫЛИ ПАРОЛЬ",
+    "success": "Сообщение отправлено вам на почту"
+  },
+  "recoveryDeleted": {
+    "title": "Восстанавление удаленной учетной записи",
+    "submitButtonTitle": "Восстановить"
+  },
+  "newPass": {
+    "passOne": "Новый пароль",
+    "passTwo": "Повторите пароль",
+    "loginUPPER": "ПОДТВЕРДИТЬ",
+    "title": "НОВЫЙ ПАРОЛЬ"
+  },
+  "myBonusTransactions": {
+    "name": "МОИ БОНУСЫ",
+    "active": "Активные",
+    "available": "Доступные",
+    "subscribed": "Подписки",
+    "all": "Все",
+    "more": "ещё"
+  },
+  "bonus": {
+    "statuses": {
+      "active": "Активный",
+      "finished": "Завершён",
+      "cancel": "Отменён",
+      "expired": "Просрочен",
+      "threshold": "Достигнут лимит",
+      "waiting": "Ожидание",
+      "subscribed": "Подписан",
+      "unsubscribed": "Отписан",
+      "pending_cancel": "Ожидает отмены"
+    },
+    "name": "Название",
+    "status": "Статус",
+    "transactionData": "Время создания"
+  }
+}
