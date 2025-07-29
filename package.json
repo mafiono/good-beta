@@ -10,7 +10,7 @@
     "build": "cross-env NODE_ENV=production webpack --mode production --progress --hide-modules"
   },
   "dependencies": {
-    "@sentry/tracing": "^6.2.0",
+    "@sentry/tracing": "^7.0.0",
     "@sentry/vue": "^6.2.0",
     "axios": "^0.27.0",
     "dotenv-webpack": "^6.0.0",
